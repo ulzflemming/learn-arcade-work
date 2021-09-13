@@ -28,4 +28,6 @@ arcade.draw_rectangle_filled(300, 250, 140, 30, arcade.color.YELLOW)
 arcade.draw_circle_filled(200, 250, 50, arcade.color.GRAY)
 arcade.draw_rectangle_filled(30, 250, 200, 30, arcade.color.ORANGE)
 
+arcade.finish_render()
+
 arcade.run()
